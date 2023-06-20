@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-logging",
+  "version": "1.0.0",
+  "description": "Node.js program to practice logging generating",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pebueno/nodejs-logging.git"
+  },
+    "keywords": [
+    "logging",
+    "generating",
+    "node.js",
+    "javascript"
+  ],
+  "author": "Pedro Ivo Bueno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pebueno/nodejs-logging/issues"
+  },
+  "homepage": "https://github.com/pebueno/nodejs-logging#readme"
+}
