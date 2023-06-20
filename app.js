@@ -8,7 +8,12 @@ app.use(expressWinston.logger({
     transports: [
         new transports.Console()
     ],
-    format: format.json() // metadata of our request
+    format: format.combine(
+        format.json(),
+        format.timestamp(),
+        format.prettyPrint()
+
+    )
 }))
 app.get('/', function (req, res) {
     res.sendStatus(200)
